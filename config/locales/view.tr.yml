@@ -1,0 +1,66 @@
+tr:
+  view:
+    make_passive: Pasif et
+    make_active: Aktif et
+    table_actions: İşlemler
+    edit: Düzenle
+    select: Seçiniz
+    active: Aktif
+    passive: Pasif
+    cancel: İptal et
+    all: Hepsi
+    reset: Temizle
+    quick_search: Arama yap..
+    reload: Yeniden yükle
+    current_value: Şuanki Değeri
+    previous_value: Önceki Değeri
+    hello: "Merhaba %{user}"
+    there_is_no_data: "Hiç %{resource} eklenmemiş."
+    create_resource_mail_info: "Yeni bir %{resource} eklediğinizde e-posta adresine giriş bilgileri gönderilecektir."
+    title:
+      edit: "%{resource_name} Düzenle"
+      show: "%{resource_name} Detay"
+      new: "%{resource_name} Ekle"
+    actions:
+      update: Güncelleme
+      create: Oluşturma
+      destroy: Silme
+      delete: Silme
+      new: "Yeni %{resource_name}"
+    navbar:
+      signup: Kayıt ol
+      signin: Giriş Yap
+      sign_out: Çıkış yap
+      edit_login_info: Giriş bilgilerini güncelle
+      edit_profile_info: Profil bilgilerini güncelle
+      home_page: Anasayfa
+      admin_portal: Yönetici Portalı
+      profile: Profil
+    form:
+      new_title: "Yeni %{resource_name}"
+    tooltips:
+      zoom: "Detay"
+      edit: "Düzenle"
+      delete: "Sil"
+      new: "Yeni"
+      are_you_sure: "Devam etmek istediğinize emin misiniz?"
+      show: "Göster"
+    btn:
+      add: Ekle
+      update: Güncelle
+      back: Geri
+      detail: Detaylar
+      delete: Sil
+    dock:
+      dashboard: Kontrol Paneli
+      profile: Profil
+      system_users: Sistem kullanıcıları
+      system_datas: Sistem verileri
+    error:
+      internal_server_error: "Üzgünüz. Şu anda bir hata var. Mühendislerimiz bu hata üzerinde çalışma yapıyorlar. En kısa sürede çözeceğiz."
+      not_found: "Üzgünüz. Bu sayfa bulunamadı. Taşınmış olabilir. Buraya gitmek istediğinizden emin olun."
+    welcome:
+      navbar:
+        about: Hakkında
+        contact: İletişim
+      footer: "%{app_name} Copyright &copy; %{year} Tüm Hakları Saklıdır."

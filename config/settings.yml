@@ -1,0 +1,15 @@
+root_path: <%= ENV['ROOT_PATH'] %>
+email:
+  sandbox: sandbox@hello_world.com
+  noreply: no-reply@hello_world.com
+  admin: admin@hello_world.com
+smtp:
+  address: <%= ENV['SMTP_ADDRESS'] %>
+  port: <%= ENV['SMTP_PORT'] %>
+  enable_starttls_auto: true
+  user_name: <%= ENV['SMTP_USER_NAME'] %>
+  password: <%= ENV['SMTP_PASSWORD'] %>
+  authentication: <%= ENV['SMTP_AUTHENTICATION'] %>
+basic_auth:
+  username: hello_world
+  password: hello_world
